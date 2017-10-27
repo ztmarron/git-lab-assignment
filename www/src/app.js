@@ -121,3 +121,12 @@ export class App {
     }
 
 }
+
+class PostCompleteStep {
+    check() {
+        return $(".page-content").height() > 5;
+    }
+
+    run() {
+    }
+}
